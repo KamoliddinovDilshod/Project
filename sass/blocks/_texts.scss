@@ -1,0 +1,77 @@
+.texts{
+  padding-top: 68px;
+  padding-bottom: 168px;
+}
+
+.texts__basic{
+  display: flex;
+}
+
+.texts__block{
+  width: 280px;
+  margin-right: 80px;
+}
+
+.texts__block:nth-child(3){
+  margin-right: 0;
+}
+
+.texts__title{
+  font-family: "Roboto" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #222222;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.texts__packet{
+  font-family: "Roboto" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160%;
+  color: #333333;
+}
+
+.texts__span{
+  display: flex;
+}
+
+.texts__minpacket{
+  display: block;
+  background-color: #DDDDDD;
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+}
+
+.texts__span-box{
+  display: flex;
+  align-items: center;
+
+  &:hover .texts__line{
+    width: 60px;
+  }
+}
+
+.texts__line{
+  display: block;
+  background-color: #EA625C;
+  width: 40px;
+  height: 1px;
+  border: 1px solid #EA625C;
+  margin-right: 10px;
+}
+
+.texts__link{
+  font-family: "Roboto" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  color: #EA625C;
+  text-decoration: none;
+}

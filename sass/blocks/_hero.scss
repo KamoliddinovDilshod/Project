@@ -1,0 +1,54 @@
+.hero{
+  background-image: url("../../images/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 1105px 155px;
+  padding: 225px 0;
+}
+
+.hero__title{
+  font-family: "Roboto" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.hero__textbox{
+  width: 450px;
+  margin-bottom: 30px;
+}
+
+.hero__text{
+  font-family: "Roboto" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  border-left: 3px solid #888888;
+  padding-left: 40px;
+}
+
+.hero__link{
+  font-family: "Roboto" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%; 
+  color: #fff; 
+  text-decoration: none;
+  background: #EA625C;
+  padding: 12px 39px;
+
+  &:hover{
+    background-color: #CC444D;
+  }
+}
+
+.line{
+  border: 2px solid #DDDDDD;
+  margin-top: 228px;
+}

@@ -1,0 +1,55 @@
+.site-footer{
+  background-image: url("../../images/runners.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 240px 0;
+}
+
+.footer__box{
+  margin-left: 470px;
+}
+
+.footer__subbox{
+  width: 490px;
+}
+
+.footer__title{
+  font-family: "Roboto" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.footer__textbox{
+  width: 450px;
+  margin-bottom: 30px;
+}
+
+.footer__text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  padding-left: 40px;
+  border-left: 3px solid #FFFFFF;
+}
+
+.footer__link{
+  font-family: "Roboto" , "Arial" , sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 12px 46px;
+  background-color: #EA625C;
+
+  &:hover{
+    background-color: #CC444D;
+  }
+}

@@ -501,6 +501,7 @@ img {
 }
 
 .hero__link {
+  display: inline-block;
   font-family: "Roboto" , "Arial" , sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -654,6 +655,7 @@ img {
 }
 
 .brand__link {
+  display: inline-block;
   font-family: "Roboto" , "Arial"  , sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -710,6 +712,7 @@ img {
 }
 
 .footer__link {
+  display: inline-block;
   font-family: "Roboto" , "Arial" , sans-serif;
   font-style: normal;
   font-weight: bold;
